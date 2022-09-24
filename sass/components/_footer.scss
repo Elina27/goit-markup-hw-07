@@ -39,13 +39,16 @@
 }
 
 .footer-mail:hover,
-.footer-tel:hover,
-.footer-adress:hover {
+.footer-mail:focus
+{
     color: var(--main-acsent-cl);
 }
 
-.footer-mail:focus,
 .footer-tel:focus,
+.footer-tel:hover {
+        color: var(--main-acsent-cl);
+    }
+.footer-adress:hover,
 .footer-adress:focus {
     color: var(--main-acsent-cl);
 }

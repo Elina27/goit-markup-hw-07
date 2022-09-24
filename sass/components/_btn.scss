@@ -12,4 +12,9 @@
     cursor: pointer;
 
     transition: background-color var(--anim-main);
+
+ &:hover,
+ &:focus {
+    background-color: var(--main-acsent-cl);
+}
 }

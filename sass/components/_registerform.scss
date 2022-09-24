@@ -35,6 +35,16 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;
+
+&:hover,
+&:focus {
+    border-color: var(--main-acsent-cl);
+}
+
+&:hover~.register-form-icon,
+&:focus~.register-form-icon {
+    fill: var(--main-acsent-cl);
+}
 }
 
 .register-form-icon {
@@ -42,17 +52,6 @@
     display: inline-block;
     top: 55%;
     left: 12px;
-}
-
-.register-form-input:hover,
-.register-form-input:focus {
-    border-color: var(--main-acsent-cl);
-
-}
-
-.register-form-input:hover~.register-form-icon,
-.register-form-input:focus~.register-form-icon {
-    fill: var(--main-acsent-cl);
 }
 
 .register-form-message {
@@ -64,16 +63,16 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;
+
+&:hover,
+&:focus {
+    border-color: var(--main-acsent-cl);
 }
 
-.register-form-message::placeholder {
+&::placeholder {
     font-size: 14px;
     color: rgba(117, 117, 117, 0.5);
 }
-
-.register-form-message:hover,
-.register-form-message:focus {
-    border-color: var(--main-acsent-cl);
 }
 
 .register-form-agreement {

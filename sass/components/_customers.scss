@@ -22,16 +22,16 @@
     border-radius: 4px;
 
     transition: border-color var(--anim-main);
-}
 
-.customers__link:hover,
-.customers__link:focus {
+&:hover,
+&:focus {
     border: 1px solid var(--main-acsent-cl);
 }
 
-.customers__link:hover .customers__icon,
-.customers__link:focus .customers__icon {
+&:hover .customers__icon,
+&:focus .customers__icon {
     fill: var(--main-acsent-cl);
+}
 }
 
 .customers__icon {
