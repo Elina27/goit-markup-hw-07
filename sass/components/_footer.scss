@@ -19,38 +19,51 @@
 .footer-adress {
     color: var(--main-bg-cl);
     align-items: center;
+
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+    
+        transition: color var(--anim-main);
+
+        &:hover,
+        &:focus {
+                color: var(--main-acsent-cl);
+            }
 }
 
-.footer-tel,
+.footer-tel {
+    color: var(--main-contact-cl);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+
+        transition: color var(--anim-main);
+
+        &:focus,
+        &:hover {
+                color: var(--main-acsent-cl);
+            }
+    }
+
 .footer-mail {
     color: var(--main-contact-cl);
-}
-
-.footer-mail,
-.footer-tel,
-.footer-adress {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+    
+        transition: color var(--anim-main);
 
-    transition: color var(--anim-main);
-}
-
-.footer-mail:hover,
-.footer-mail:focus
-{
-    color: var(--main-acsent-cl);
-}
-
-.footer-tel:focus,
-.footer-tel:hover {
-        color: var(--main-acsent-cl);
-    }
-.footer-adress:hover,
-.footer-adress:focus {
-    color: var(--main-acsent-cl);
+        &:hover,
+        &:focus {
+                color: var(--main-acsent-cl);
+            }
 }
 
 .footer-container {
@@ -101,15 +114,15 @@
     background: #2F303A;
     color: #ffffff;
     margin-right: 12px;
-}
 
-.footer-mail-subscription::placeholder {
+&::placeholder {
     font-size: 16px;
     line-height: calc(20 / 16);
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
 }
 
 .btn-footer {

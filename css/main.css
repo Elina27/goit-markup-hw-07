@@ -545,16 +545,6 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.footer-tel,
-.footer-mail {
-  color: var(--main-contact-cl);
-}
-
-.footer-mail,
-.footer-tel,
-.footer-adress {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -563,19 +553,35 @@ p {
   -webkit-transition: color var(--anim-main);
   transition: color var(--anim-main);
 }
-
-.footer-mail:hover,
-.footer-mail:focus {
+.footer-adress:hover, .footer-adress:focus {
   color: var(--main-acsent-cl);
 }
 
-.footer-tel:focus,
-.footer-tel:hover {
+.footer-tel {
+  color: var(--main-contact-cl);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142857143;
+  letter-spacing: 0.03em;
+  -webkit-transition: color var(--anim-main);
+  transition: color var(--anim-main);
+}
+.footer-tel:focus, .footer-tel:hover {
   color: var(--main-acsent-cl);
 }
 
-.footer-adress:hover,
-.footer-adress:focus {
+.footer-mail {
+  color: var(--main-contact-cl);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142857143;
+  letter-spacing: 0.03em;
+  -webkit-transition: color var(--anim-main);
+  transition: color var(--anim-main);
+}
+.footer-mail:hover, .footer-mail:focus {
   color: var(--main-acsent-cl);
 }
 
@@ -637,7 +643,6 @@ p {
   color: #ffffff;
   margin-right: 12px;
 }
-
 .footer-mail-subscription::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -648,7 +653,6 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-mail-subscription::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -657,7 +661,6 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-mail-subscription:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -668,7 +671,6 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-mail-subscription::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -679,7 +681,6 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-mail-subscription::placeholder {
   font-size: 16px;
   line-height: 1.25;
